@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BSOD</title>
+</head>
+<body onload="timer()" style="background-color: #0078d7; cursor: none; margin: 50px; color: white; font-family: 'Segoe UI Light', 'Segoe UI', Arial">
+<div style="width: 700px; margin: 10% auto">
+    <p style="font-size: 100pt; margin: 0; padding-bottom: 20pt">:(</p>
+    <p style="font-size: 20pt; margin: 0; padding: 0"><span id=p1>Your PC ran into a problem and needs to restart.<br>
+        We're just collecting some error info, and then<br>
+        you can restart. (</span><span id=p2><span id="timer">0</span>% complete)</span>
+    </p>
+    <p><span id=p3>If you'd like to know more, you can search online later for this error: </span>MANUALLY_INITIATED_CRASH1</p>
+</div>
+</body>
+<script>
+    var time = 0
+    function $i(id) {
+        return document.getElementById(id)
+    }
+
+    function timer() {
+        if (navigator.language == 'zh-CN') switchLang()
+        setInterval(
+            function() {
+                if (time == 100) clearInterval()
+                else $i('timer').innerText = ++time
+            },
+            100)
+    }
+
+    function switchLang() {
+        $i('p1').innerText = '你的电脑遇到问题，需要重新启动。\n我们只收集某些错误信息，然后为你重新启动。（'
+        $i('p2').innerHTML = '完成<span id="timer">0</span>%）'
+        $i('p3').innerText = '如果你想了解更多信息，则可以稍后在线搜索此错误：'
+    }
+</script>
+</html>
