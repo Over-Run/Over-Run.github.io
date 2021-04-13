@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <title>FreeWorld</title>
+    <!--script src="gl-matrix-min.js"></script-->
+    <script src="https://cdn.jsdelivr.net/npm/gl-matrix@3.3.0/gl-matrix-min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<script id="vshBlock" type="x-shader/x-vertex">attribute vec3 vert;
+uniform mat4 projectionMatrix, modelViewMatrix;
+void main() {
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(vert, 1.0);
+}</script>
+<script id="fshBlock" type="x-shader/x-vertex">void main() {
+    gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+}</script>
+<button id=start-btn onclick=start()>
+    开始游戏
+</button>
+<canvas style=display:none id=screen width=854 height=480></canvas>
+</body>
+</html>
