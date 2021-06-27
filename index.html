@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title>主页 - OverRun Organization</title>
-    <link href="css/public.css" rel="stylesheet" type="text/css" />
+    <link href="css/public.css" rel="stylesheet" type="text/css"/>
+    <script src="js/public.js"></script>
 </head>
-<body>
-    <div class="header">eee</div>
+<body onload="init();">
+    <div class="header">
+        <div class="name"><a href="https://over-run.github.io/">OverRun<br/>Organization</a></div>
+        <div class="article-container">
+            <button class="articles">查阅文章</button>
+            <div class="article-list">
+                <ul>
+                    <li>
+                        <div>2021-06</div>
+                        <a href="blog/2021-06-28.html">致</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="content">
+        <h1>主页</h1>
+        <hr/>
+        <p>欢迎来到OverRun Organization的博客。</p>
+        <p>您可以通过<a href="https://github.com/Over-Run/blog/issues/new">创建issues</a>将文章发表到此处。</p>
+    </div>
 </body>
 </html>

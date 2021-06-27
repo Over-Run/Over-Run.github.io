@@ -1,3 +1,88 @@
-.header {
+body {
     background-image: url("https://Over-Run.github.io/img/bg.jpg");
+    background-size: 100% auto;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #E8E8E8;
+}
+
+.header .name {
+    text-align: center;
+    font-size: 2em;
+}
+
+.header .name a {
+    color: unset;
+    text-decoration: unset;
+}
+
+.header .article-container {
+    position: relative;
+    display: inline-block;
+}
+
+.header .articles {
+    display: flex;
+    color: inherit;
+    background-color: #0063B1;
+    font-size: 2em;
+    width: 4.5em;
+    height: 2em;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .articles a {
+    color: unset;
+    text-decoration: unset;
+}
+
+.header .article-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+}
+
+
+.header .article-list ul {
+    list-style-type: none;
+}
+
+.header .article-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.header .article-list a:hover {
+    background-color: #f1f1f1
+}
+
+.header .article-container:hover .article-list {
+    display: block;
+}
+
+.header .article-list ul li div {
+    color: darkgray;
+}
+
+.content {
+    background-color: whitesmoke;
+    padding: 8px;
 }
