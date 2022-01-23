@@ -1,0 +1,18 @@
+---
+title: 博客
+---
+<h1>最新发帖</h1>
+
+<ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+        <h3>
+            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ post.url }}#disqus_thread">Comment Count</a>
+        </h3>
+        {{ post.excerpt }}
+        <span class="post-meta">{{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+</ul>
+<script id="dsq-count-scr" src="//overrun-ghp.disqus.com/count.js" async></script>
