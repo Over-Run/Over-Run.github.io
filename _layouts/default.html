@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+    <head>
     <meta charset="UTF-8">
 
-{% seo %}
+    {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% if page.comments %}
+    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css">
+    {% endif %}
     {% include head-custom.html %}
-  </head>
-  <body>
+    </head>
+    <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
@@ -34,22 +37,20 @@
       <footer class="site-footer">
         {% if page.comments %}
         <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    var disqus_config = function () {
-    this.page.url = "{{ site.url }}{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = "{{ page.disqus_id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://overrun-ghp.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js"></script>
+        <script>
+            var dsqjs = new DisqusJS({
+                shortname: 'overrun-ghp',
+                siteName: 'Overrun Organization\'s GitHub Page',
+                identifier: '{{ page.disqus_id }}',
+                url: '{{ site.url }}{{ page.disqus_id }}',
+                title: '{{ page.title }}',
+                api: 'https://disqus.skk.moe/disqus/',
+                apikey: ['n2MaQLFnavyrWueWYfsHMK52axXQ2aeFwJpKQ1HAsRseBVZn6EfMNeeiMoM6W1so', 'sHWZchTDwXLrKmOFpUkLyzaLmp3PFJmQdqIceQVu49xMAWOEDiZ4kqGlkxPcn4S4'],
+                admin: 'squid233',
+                adminLabel: 'Mod'
+            });
+        </script>
         {% endif %}
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
