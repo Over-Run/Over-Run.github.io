@@ -1,4 +1,5 @@
 ---
+title: OpenGL 系列教程预告
 author: squid233
 disqus_id: gltutorvideo-notice
 comments: true
