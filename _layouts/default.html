@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang='{{ site.lang | default: "en-US" }}'>
     <head>
     <meta charset="UTF-8">
 
@@ -9,10 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta http-equiv="Access-Control-Allow-Origin" content="https://disqus.skk.moe">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% if page.comments %}
-    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.3.0/dist/disqusjs.css">
+    <link rel="stylesheet" href="https://unpkg.com/disqusjs@3.0.0/dist/browser/styles/disqusjs.css">
+    <script src="https://unpkg.com/disqusjs@3.0.0/dist/browser/disqusjs.es2015.umd.min.js"></script>
     {% endif %}
     {% include head-custom.html %}
     </head>
@@ -37,10 +38,9 @@
 
       <footer class="site-footer">
         {% if page.comments %}
-        <div id="disqus_thread"></div>
-        <script src="https://unpkg.com/disqusjs@1.3.0/dist/disqus.js"></script>
+        <div id="disqusjs"></div>
         <script>
-            var dsqjs = new DisqusJS({
+            const dsqjs = new DisqusJS({
                 shortname: 'overrun-ghp',
                 siteName: 'Overrun Organization\'s GitHub Page',
                 identifier: '{{ page.disqus_id }}',
@@ -51,6 +51,8 @@
                 admin: 'squid233',
                 adminLabel: 'Mod'
             });
+            dsqjs.render(document.getElementById('disqusjs'));
+            //dsqjs.destroy();
         </script>
         {% endif %}
         {% if site.github.is_project_page %}
