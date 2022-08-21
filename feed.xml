@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://over-run.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://over-run.github.io//" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2022-08-21T06:49:34+00:00</updated><id>https://over-run.github.io//feed.xml</id><title type="html">Overrun Organization</title><subtitle>Overrun Organization's GitHub Pages</subtitle><entry><title type="html">Ation</title><link href="https://over-run.github.io//2022/01/27/ation.html" rel="alternate" type="text/html" title="Ation" /><published>2022-01-27T00:00:00+00:00</published><updated>2022-01-27T00:00:00+00:00</updated><id>https://over-run.github.io//2022/01/27/ation</id><content type="html" xml:base="https://over-run.github.io//2022/01/27/ation.html"><![CDATA[<p>Ation 是一个使用Minecraft-MOD加载器，主要作者是OverRun团队</p>
+
+<h2 id="下载">下载</h2>
+
+<p>Ation 在官网支持在线下载</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>版本</th>
+      <th>时间</th>
+      <th>更新内容</th>
+      <th>下载</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.0.1-alpha ★</td>
+      <td>2021-1-27</td>
+      <td>Ation加载器</td>
+      <td><a href="https://github.com/Over-Run/ation/archive/refs/tags/ation-0.0.1-20210127-alpha-dev.zip">dev★</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="应用程序">应用程序</h2>
+
+<ul>
+  <li>Ation 是一个使用Minecraft-MOD加载器，主要作者是OverRun团队</li>
+  <li>Ation-Installer，一个安装器配置文件的工具。</li>
+  <li>Ation-Loader，一个MOD加载器，加载Ation模组。</li>
+  <li>Ation-API，一个api就支持java、Kotlin、Scala、lua、js、ts。</li>
+  <li>Ation-Gradle，一个Ation Gradle构建工具，使用开发Ation模组。</li>
+  <li>Ation-Codetable，一个Ation代码表，游戏中混淆里，取新名称</li>
+</ul>
+
+<h2 id="许可证">许可证</h2>
+
+<ul>
+  <li>版权所有©2022 OverRun</li>
+  <li>GNU通用公共许可证版本2.0</li>
+  <li>不是官方的 Minecraft 产品。未经 MOJANG 批准或与 MOJANG 相关。</li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>Copyright © 2022 Over-Run</li>
+  <li>GNU General Public License v2.0</li>
+  <li>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.</li>
+</ul>]]></content><author><name>beanflame</name></author><summary type="html"><![CDATA[Ation 是一个使用Minecraft-MOD加载器，主要作者是OverRun团队]]></summary></entry><entry><title type="html">如何咏e</title><link href="https://over-run.github.io//2022/01/23/chant-e.html" rel="alternate" type="text/html" title="如何咏e" /><published>2022-01-23T00:00:00+00:00</published><updated>2022-01-23T00:00:00+00:00</updated><id>https://over-run.github.io//2022/01/23/chant-e</id><content type="html" xml:base="https://over-run.github.io//2022/01/23/chant-e.html"><![CDATA[<p>如何咏e</p>
+<p>这是一种新的辅音附标文字，是mcbbs上的名梗“咏e”衍生出来的文字。</p>
+<p>注意：这只是一个文字系统，暂时没有词法，仅作注音用。</p>
+<p>元音</p>
+<table border="1">
+    <thead>
+        <tr>
+            <th></th>
+            <th colspan="6">短音</th>
+            <th colspan="6">长音</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">未异化</td>
+        <td>&#597</td><td>e</td><td>e&#776</td><td>&#477</td><td>&#477&#776</td><td>&#629</td>
+        <td>&#597&#856</td><td>e&#856</td><td>e&#776&#856</td><td>&#477&#856</td><td>&#477&#776&#856</td><td>&#629&#856</td>
+    </tr>
+    <tr>
+        <td>[&#593]</td><td>[&#230]</td><td>[a&#618]</td><td>[&#601&#650]</td><td>[ju]</td><td>对应辅音</td>
+        <td>[e&#618]</td><td>[&#602]</td><td>[&#618&#601]</td><td>[&#596&#618]</td><td>[u&#601]</td><td>对应辅音加长</td>
+    </tr>
+    <tr>
+        <td rowspan="4">异化</td>
+        <td>&#603</td><td>&#604</td><td>&#604&#776</td><td>&#602</td><td>&#602&#776</td><td>&#629</td>
+        <td>&#603&#856</td><td>&#604&#856</td><td>&#604&#776&#856</td><td>&#602&#856</td><td>&#602&#776&#856</td><td>&#629&#856</td>
+    </tr>
+    <tr>
+        <td>[&#652]</td><td>[&#618]</td><td>[e]</td><td>[o]</td><td>[u]</td><td>对应辅音</td>
+        <td>[a:]</td><td>[i:]</td><td>[&#616]或[ʲi:]</td><td>[&#596:]</td><td>[u:]</td><td>对应辅音加长</td>
+    </tr>
+    <tr>
+        <td></td><td>&#600</td><td></td><td></td><td></td><td></td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td>[&#601]</td><td></td><td></td><td></td><td></td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    </tbody>
+</table>
+
+<p>辅音</p>
+<table>
+    <tbody>
+    <tr>
+        <td rowspan="2">未异化</td>
+        <td>&#629&#772</td><td>&#629&#769</td><td>&#629&#780</td><td>&#629&#768</td><td>&#629&#770</td><td>&#629&#771</td><td>&#629&#778</td><td>&#629&#775</td><td>&#629&#829</td>
+    </tr>
+    <tr>
+        <td>[p]</td><td>[t]</td><td>[k]</td><td>[f]</td><td>[l]</td><td>[θ]</td><td>[h]</td><td>[w]</td><td>[m]</td>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">异化</td>
+        <td>&#629&#798&#772</td><td>&#629&#798&#769</td><td>&#629&#798&#780</td><td>&#629&#798&#768</td><td>&#629&#798&#770</td><td>&#629&#798&#771</td><td>&#629&#798&#778</td><td>&#629&#798&#775</td><td>&#629&#798&#829</td>
+    </tr>
+    <tr>
+        <td>[b]</td><td>[d]</td><td>[g]</td><td>[v]</td><td>[n]</td><td>[z]</td><td>[r]</td><td>[&#676]</td><td>[ŋ]</td>
+    </tr>
+    <tr>
+        <td rowspan="2">同化</td>
+        <td>&#629&#778&#771</td><td>&#629&#778&#769</td><td>&#629&#771&#769</td><td>&#629&#771&#771</td><td>&#629&#798&#771&#769</td><td>&#629&#798&#771&#771</td><td>&#629&#798&#778&#769</td><td>&#629&#798&#778&#771</td><td></td>
+    </tr>
+    <tr>
+        <td>[ʃ]</td><td>[&#679]</td><td>[&#678]</td><td>[s]</td><td>[&#675]</td><td>[&#597]</td><td>[ð]</td><td>[ʒ]</td><td></td>
+    </tr>
+    </tbody>
+</table>
+<style>
+table {
+  font-family: Consolas, monospace;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+td {
+  text-align: center;
+  padding: 3px;
+}
+</style>]]></content><author><name>crazy-piggy</name></author><summary type="html"><![CDATA[如何咏e 这是一种新的辅音附标文字，是mcbbs上的名梗“咏e”衍生出来的文字。 注意：这只是一个文字系统，暂时没有词法，仅作注音用。 元音 短音 长音 未异化 &#597ee&#776&#477&#477&#776&#629 &#597&#856e&#856e&#776&#856&#477&#856&#477&#776&#856&#629&#856 [&#593][&#230][a&#618][&#601&#650][ju]对应辅音 [e&#618][&#602][&#618&#601][&#596&#618][u&#601]对应辅音加长 异化 &#603&#604&#604&#776&#602&#602&#776&#629 &#603&#856&#604&#856&#604&#776&#856&#602&#856&#602&#776&#856&#629&#856 [&#652][&#618][e][o][u]对应辅音 [a:][i:][&#616]或[ʲi:][&#596:][u:]对应辅音加长 &#600 [&#601]]]></summary></entry><entry><title type="html">Hello</title><link href="https://over-run.github.io//2022/01/22/hello.html" rel="alternate" type="text/html" title="Hello" /><published>2022-01-22T00:00:00+00:00</published><updated>2022-01-22T00:00:00+00:00</updated><id>https://over-run.github.io//2022/01/22/hello</id><content type="html" xml:base="https://over-run.github.io//2022/01/22/hello.html"><![CDATA[<p>Hello world!!!<br />
+We’re going to use jekyll-theme-cayman.</p>]]></content><author><name>squid233</name></author><summary type="html"><![CDATA[Hello world!!! We’re going to use jekyll-theme-cayman.]]></summary></entry></feed>
